@@ -1,0 +1,40 @@
+{
+    "name": "polymer-start",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack --config webpack.config.js --mode=development",
+        "lint": "eslint ./src/element/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JoYiRis/Polymer-Start.git"
+    },
+    "author": "joey.zhou",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JoYiRis/Polymer-Start/issues"
+    },
+    "homepage": "https://github.com/JoYiRis/Polymer-Start#readme",
+    "devDependencies": {
+        "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-minify": "^0.4.3",
+        "eslint": "^5.0.1",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-html": "^4.0.5",
+        "html-loader": "^0.5.5",
+        "modernizr-webpack-plugin": "^1.0.7",
+        "stylelint": "^9.3.0",
+        "stylelint-config-standard": "^18.2.0",
+        "stylelint-order": "^0.8.1",
+        "stylelint-webpack-plugin": "^0.10.5",
+        "webpack": "^4.12.1",
+        "webpack-cli": "^3.0.8",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
